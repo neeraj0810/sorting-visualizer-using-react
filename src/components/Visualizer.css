@@ -1,0 +1,60 @@
+.header{
+    background:#cc9900;
+    color: black;
+    padding: 10px 0px 10px 0px ;
+    width: 100%;
+}
+.dropdown{
+    height: 40px ;
+    width: 150;
+    padding: 10 ;
+    font-weight: bold ;
+    background:#cc9900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: 'pointer'
+}
+.generate-button{
+    width: 130;
+    background: #0D1929 ;
+    border-color: black;
+    font-weight: bold
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center,
+}
+.text{
+    color: black;
+    font-weight : bold ;
+    text-align: center;
+}
+.home{
+    background-color:white;
+    display: flex;
+    height: 80%;
+    width: 90vw;
+    flex-direction: row;
+    align-items: flex-end ;
+    padding: 0% 5% 1% 5%;
+}
+.define{
+    background-color:white;
+    height: 80%;
+    width: 90vw;
+    flex-direction: row;
+    align-items: flex-end ;
+    padding: 0% 1% 1% 5%;  
+}
+.detail{
+    font-weight: bold;
+    font-size :medium;
+
+}
+table ,th ,td{
+    border: 1px solid black;
+    width :25%;
+}
